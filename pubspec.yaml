@@ -46,7 +46,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/night.png
+    - assets/img/mochileros.jpg
+    - assets/img/mochilera2.jpg
+    - assets/img/playa1.jpg
+    - assets/img/playa2.jpg
+    - assets/img/playa3.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -73,3 +77,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
