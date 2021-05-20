@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:platzi_trips_app/profile_backgroud.dart';
 import 'package:platzi_trips_app/profile_header.dart';
+import 'package:platzi_trips_app/profile_places_list.dart';
 
 class ProfileTrips extends StatelessWidget {
   @override
@@ -11,6 +12,7 @@ class ProfileTrips extends StatelessWidget {
         ListView(
           children: [
             ProfileHeader(),
+            ProfilePlacesList()
           ],
         )
       ],
